@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4 Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-section">
+            <h1>Connect 4 Game</h1>
+            <h2 id="turn-indicator">Player 1's Turn</h2>
+            <div id="game-board"></div>
+            <button id="reset-btn">Reset Game</button>
+        </div>
+
+        <div class="score-section">
+            <div class="score-board">
+                <div class="player-score">
+                    <h3>Player 1</h3>
+                    <p id="score-p1">0</p>
+                </div>
+                <div class="player-score">
+                    <h3>Player 2</h3>
+                    <p id="score-p2">0</p>
+                </div>
+            </div>
+            <button id="reset-score-btn">Reset Scores</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
